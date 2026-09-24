@@ -1,0 +1,6 @@
+# Local development only (wrangler dev reads .dev.vars). Production uses `wrangler secret put`.
+GEMINI_API_KEY=
+ANTHROPIC_API_KEY=
+OPENAI_API_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+HARVESTER_TOKEN=change-me

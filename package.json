@@ -1,0 +1,19 @@
+{
+  "name": "harvester",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Paste a link, get the lessons. A Cloudflare Worker that watches a YouTube video (or reads an article, a post, or pasted text) with Gemini, synthesizes it through a lens with Claude using rulebook pages read live from your Second Brain, writes a harvested page, routes action items onto project pages, and logs every run.",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail",
+    "check": "wrangler deploy --dry-run --outdir .wrangler/dry"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.95.0"
+  }
+}
